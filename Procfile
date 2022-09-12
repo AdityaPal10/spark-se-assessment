@@ -1,4 +1,4 @@
-web: gunicorn project:app
+web: ./launch.sh
 heroku ps:scale web=1
 
 
